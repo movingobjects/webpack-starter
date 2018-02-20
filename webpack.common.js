@@ -64,6 +64,14 @@ module.exports = {
         }
       },
 
+      {
+        test: /\.(mp4|webm)$/,
+        loader: 'file-loader',
+        options: {
+          name: 'resources/video/[name].[ext]'
+        }
+      },
+
     ]
   },
 
