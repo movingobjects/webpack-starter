@@ -38,7 +38,31 @@ module.exports = {
             'transform-class-properties'
           ],
         }
-      }
+      },
+
+      {
+        test: /\.(jpe?g|png|gif|svg)$/i,
+        loader: 'file-loader',
+        options: {
+          name: 'resources/images/[name].[ext]'
+        }
+      },
+
+      {
+        test: /\.(ttf|otf|eot|woff|woff2)$/,
+        loader: 'file-loader',
+        options: {
+          name: 'resources/fonts/[name].[ext]'
+        }
+      },
+
+      {
+        test: /\.(mp3|aif|aiff|wav)$/,
+        loader: 'file-loader',
+        options: {
+          name: 'resources/audio/[name].[ext]'
+        }
+      },
 
     ]
   },

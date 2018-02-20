@@ -2,3 +2,18 @@
 body {
   font-family: $fontStd;
 }
+
+.test-img {
+  width: 100px;
+  height: 100px;
+}
+
+.test-bg-img {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.test-external-bg-img {
+  background-image: url('../images/success.png');
+}
