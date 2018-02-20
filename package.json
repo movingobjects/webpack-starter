@@ -1,7 +1,7 @@
 {
   "name": "webpack-starter",
   "productName": "Webpack starter",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Webpack boilerplate for web apps (w/ Babel & Sass)",
   "author": "Scott Thiessen (http://movingobjects.io)",
   "license": "ISC",
@@ -46,10 +46,7 @@
     "webpack-dev-server": "^2.11.1",
     "webpack-merge": "^4.1.1"
   },
-  "dependencies": {
-    "lodash": "^4.17.5",
-    "varyd-utils": "^1.0.0"
-  },
+  "dependencies": {},
   "log-box": {
     "default": {
       "style": "round",

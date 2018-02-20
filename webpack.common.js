@@ -28,8 +28,7 @@ module.exports = {
         test: /\.jsx?$/,
         loader: 'babel-loader',
         include: [
-          path.resolve(__dirname, 'app'),
-          path.resolve(__dirname, 'node_modules/varyd-utils')
+          path.resolve(__dirname, 'app')
         ],
         options: {
           presets: ['env'],
